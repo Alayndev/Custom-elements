@@ -1,0 +1,29 @@
+/* (22:10) Estilos de la página */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"); /* Fonts y components: (04:00) los componentes heredan la font-family de la página. El componente define el font-size y la página el font-family al tener toda la página la misma font-family en este layout */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title-container,
+.subtitle-container {
+  margin: 70px 0;
+}
+
+.form-container {
+  margin: 70px 10px;
+  display: flex;
+  justify-content: center;
+}

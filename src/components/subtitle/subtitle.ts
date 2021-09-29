@@ -38,5 +38,5 @@ export function subtitleComp() {
     }
   }
 
-  customElements.define("subtitle-el", Subitle);
+  customElements.define("subtitle-section", Subitle);
 }

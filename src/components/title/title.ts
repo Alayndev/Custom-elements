@@ -33,5 +33,5 @@ export function titleComp() {
     }
   }
 
-  customElements.define("title-el", Title);
+  customElements.define("title-section", Title);
 }
